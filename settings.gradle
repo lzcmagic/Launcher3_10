@@ -1,0 +1,6 @@
+include ':IconLoader'
+project(':IconLoader').projectDir = new File(rootDir, 'iconloaderlib')
+
+
+include ':sysui_shared'
+project(':sysui_shared').projectDir = new File(rootDir, 'sysui_shared')
